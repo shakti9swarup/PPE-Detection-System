@@ -1,94 +1,56 @@
-\# PPE Detection System Using YOLOv11
+# PPE Detection System Using YOLOv8
 
+## Project Overview
+This project is a real-time Personal Protective Equipment (PPE) Detection System developed using YOLOv8, OpenCV, and Python.
 
+The system detects:
+- Helmet
+- Safety Vest
+- PPE Equipment
 
-\## Project Overview
+using webcam or image input.
 
+---
 
+## Features
+- Real-time PPE detection
+- YOLOv8 custom-trained model
+- Webcam support
+- GUI application using CustomTkinter
+- Fast object detection
 
-This project detects Personal Protective Equipment (PPE) such as helmets and safety vests using YOLOv8 and OpenCV.
+---
 
+## Technologies Used
+- Python
+- YOLOv8
+- OpenCV
+- PyTorch
+- CustomTkinter
+- NumPy
 
+---
 
-\## Technologies Used
+## Project Structure
 
+PPE-Detection-System/
+│
+├── models/
+│   └── best.pt
+│
+├── app.py
+├── train.ipynb
+├── requirements.txt
+├── README.md
+└── .gitignore
 
+---
 
-\* Python
+## Installation
 
-\* YOLOv8
-
-\* OpenCV
-
-\* CustomTkinter
-
-\* PyTorch
-
-
-
-\## Features
-
-
-
-\* Real-time PPE detection
-
-\* Webcam support
-
-\* GUI interface
-
-\* Custom-trained YOLO model
-
-
-
-\## Installation
-
-
+Install required libraries:
 
 ```bash
-
 pip install -r requirements.txt
-
-```
-
-
-
-\## Run Project
-
-
-
-```bash
-
-python app.py
-
-```
-
-
-
-\## Model
-
-
-
-The trained model file is stored inside:
-
-
-
-```text
-
-models/best.pt
-
-```
-
-
-
-\## Future Improvements
-
-
-
-\* Improve accuracy
-
-\* Add cloud deployment
-
-\* Add safety alert system
-
 
 
