@@ -1,4 +1,4 @@
-\# PPE Detection System Using YOLOv8
+\# PPE Detection System Using YOLOv11
 
 
 
